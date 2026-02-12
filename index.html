@@ -159,45 +159,60 @@
   <button class="next" onclick="go(3)">Next ➜</button>
 </div>
 
-<!-- PAGE 3 -->
-<!-- PAGE 3 -->
-<div class="page" id="p3">
-  <h1 style="font-size:38px;">For Himani ❤️</h1>
+<!-- PAGE 3 LOVE LETTER FOR HIMANI -->
+<section class="page" id="page3">
 
-  <div style="
-      background:rgba(255,255,255,0.08);
-      padding:30px;
-      border-radius:20px;
-      max-height:380px;
-      overflow-y:auto;
-      margin-top:20px;
-      font-size:20px;
-      line-height:1.9;
-      width:100%;
-      max-width:560px;
-  " id="letterBox">
+  <h1 class="title">For Himani ❤️</h1>
+
+  <div class="letter">
 
     Himani<br><br>
 
-Ever since you came into my life everything just feels brighter  
-Even normal days feel special because you are there<br><br>
+    Ever since you came into my life everything just feels brighter  
+    Even normal days feel special because you are there<br><br>
 
-The smallest things remind me of you your smile your laugh  
-the way you talk the way you care  
-It honestly makes my whole day better every single time<br><br>
+    The smallest things remind me of you your smile your laugh  
+    the way you talk the way you care  
+    It honestly makes my whole day better every single time<br><br>
 
-Talking to you is my favourite part of the day  
-No matter how stressed or tired I am you somehow make everything okay<br><br>
+    Talking to you is my favourite part of the day  
+    No matter how stressed or tired I am you somehow make everything okay<br><br>
 
-I do not know how you do it but you make life feel lighter happier  
-and way more beautiful<br><br>
+    I do not know how you do it but you make life feel lighter happier  
+    and way more beautiful<br><br>
 
-I just feel lucky really lucky  
-that someone as amazing as Himani exists  
-and even luckier that I get to call you mine ❤️
+    I just feel lucky really lucky  
+    that someone as amazing as Himani exists  
+    and even luckier that I get to call you mine ❤️
 
-  <button class="next" onclick="go(4)" style="margin-top:25px;">Continue ➜</button>
-</div>
+  </div>
+
+</section>
+#page3 {
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.title {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.letter {
+  max-width: 900px;
+  font-size: 26px;
+  line-height: 1.8;
+  color: white;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
 
 
 <!-- PAGE 4 -->
@@ -272,3 +287,4 @@ setInterval(()=>{
 
 </body>
 </html>
+
